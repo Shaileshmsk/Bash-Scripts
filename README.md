@@ -22,3 +22,9 @@ In this script it's a subtle demonstration of the 2_websetup.sh with variables a
 
 dismantle.sh:
 It is rather a extra script which can be used to clean up the whole setup environment.
+
+4_args_websetup.sh:
+
+Command-line arguments are parameters that are passed to a script while executing them in the bash shell. They are also known as positional parameters in Linux. We use command-line arguments to denote the position in memory where the command and it’s associated parameters are stored.
+Here, we to take the URL of the artifact as an argument so user can pass any URL in our script, will deploy that website for the userfArgument_first is going to be the URL. Argument_second is going to be the artifact name.
+So this is now a reusable code, I can use it to deploy any website I want.
