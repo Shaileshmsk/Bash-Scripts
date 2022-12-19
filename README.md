@@ -11,16 +11,20 @@ I'm talking about the similar example we've seen in Linux download it from toopl
 I'm going to simply record all those commands in this text file, which is basically my script.
 
 1firstscript.sh: 
+
 It is a shell file that show how to write a script which is clear, understandable and readable even after a long period of time.
 
 2_websetup.sh: 
+
 This script holds a URl and dependencies to host a static website template which is borrowed from "tooplate.com". After running the script browse the hostmachine Ip to see the website hosted.
 
 3_vars_websetup.sh:
+
 An essential feature of programming is the ability to use a name or a label to refer to some other quantity: such as a value, or a command. This is commonly referred to as variables.However, variables really come into use in more advanced programming, when we're in a situation in which the actual values aren't known before executing a program. A variable acts as a placeholder that gets resolved upon actual execution time.
 In this script it's a subtle demonstration of the 2_websetup.sh with variables and how we can easily change the variable values.
 
 dismantle.sh:
+
 It is rather a extra script which can be used to clean up the whole setup environment.
 
 4_args_websetup.sh:
@@ -28,3 +32,6 @@ It is rather a extra script which can be used to clean up the whole setup enviro
 Command-line arguments are parameters that are passed to a script while executing them in the bash shell. They are also known as positional parameters in Linux. We use command-line arguments to denote the position in memory where the command and it’s associated parameters are stored.
 Here, we to take the URL of the artifact as an argument so user can pass any URL in our script, will deploy that website for the userfArgument_first is going to be the URL. Argument_second is going to be the artifact name.
 So this is now a reusable code, I can use it to deploy any website I want.
+=======
+            It is rather a extra script which can be used to clean up the whole setup environment.
+>>>>>>> 7f0a755e83e099e491273ef8f99e70bd19f0343d
