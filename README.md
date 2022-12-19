@@ -11,14 +11,14 @@ I'm talking about the similar example we've seen in Linux download it from toopl
 I'm going to simply record all those commands in this text file, which is basically my script.
 
 1firstscript.sh: 
-It is a shell file that show how to write a script which is clear, understandable and readable even after a long period of time.
+                It is a shell file that show how to write a script which is clear, understandable and readable even after a long period of time.
 
 2_websetup.sh: 
-This script holds a URl and dependencies to host a static website template which is borrowed from "tooplate.com". After running the script browse the hostmachine Ip to see the website hosted.
+              This script holds a URl and dependencies to host a static website template which is borrowed from "tooplate.com". After running the script browse the hostmachine Ip to see the website hosted.
 
 3_vars_websetup.sh:
-An essential feature of programming is the ability to use a name or a label to refer to some other quantity: such as a value, or a command. This is commonly referred to as variables.However, variables really come into use in more advanced programming, when we're in a situation in which the actual values aren't known before executing a program. A variable acts as a placeholder that gets resolved upon actual execution time.
+                  An essential feature of programming is the ability to use a name or a label to refer to some other quantity: such as a value, or a command. This is commonly referred to as variables.However, variables really come into use in more advanced programming, when we're in a situation in which the actual values aren't known before executing a program. A variable acts as a placeholder that gets resolved upon actual execution time.
 In this script it's a subtle demonstration of the 2_websetup.sh with variables and how we can easily change the variable values.
 
 dismantle.sh:
-It is rather a extra script which can be used to clean up the whole setup environment.
+            It is rather a extra script which can be used to clean up the whole setup environment.
